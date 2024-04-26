@@ -1,5 +1,2 @@
-# cktBTCLogger
-
-Logger.mo -> old btc logger
-
-BtcAddressLogger.mo -> new logger
+# lottery repo
+- picks one NFT in collection
