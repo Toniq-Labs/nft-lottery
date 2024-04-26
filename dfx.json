@@ -1,0 +1,16 @@
+{
+  "canisters": {
+    "randomnumbergenerator" : {
+      "main": "src/bioniq/service/RandomNumberGenerator.mo",
+      "type": "motoko"
+    }
+  },
+  "dfx": "0.19.0",
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": "mops sources"
+    }
+  },
+  "version": 1
+}
