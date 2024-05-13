@@ -34,7 +34,7 @@ actor class NumGen(init_owner: Principal) = this {
   public shared({caller}) func init() : async Result.Result<Time, Text> {
     if (caller == init_owner)
     {        
-        data_initTime := Time.now() + 1 * 60 * 60 * 1000000000;
+        data_initTime := Time.now() + 8 * 60 * 60 * 1000000000;
 
         await ic.update_settings({
             canister_id = Principal.fromActor(this);
